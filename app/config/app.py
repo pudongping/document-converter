@@ -30,5 +30,11 @@ class AppConfig(object):
     def input_docx(self):
         return AppConfig.__get_default_input_path() + self.__class__.DOCX + 's' + os.sep
 
+    def input_pdf(self):
+        return AppConfig.__get_default_input_path() + self.__class__.PDF + 's' + os.sep
+
     def output_pdf(self):
         return AppConfig.__get_default_output_path() + self.__class__.PDF + 's' + os.sep
+
+    def output_docx(self):
+        return AppConfig.__get_default_output_path() + self.__class__.DOCX + 's' + os.sep

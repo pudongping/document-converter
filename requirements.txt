@@ -1,2 +1,12 @@
 -i http://mirrors.aliyun.com/pypi/simple/  --trusted-host mirrors.aliyun.com
+appscript==1.1.2
 docx2pdf==0.1.7
+tqdm==4.60.0
+lxml==4.6.3
+Pillow==8.2.0
+Wand==0.6.6
+chardet==4.0.0
+pdfminer.six==20200517
+pdfplumber==0.5.27
+pycryptodome==3.10.1
+sortedcontainers==2.3.0
